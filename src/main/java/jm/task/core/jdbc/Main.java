@@ -18,6 +18,8 @@ public class Main {
         UserServiceImpl userService = new UserServiceImpl();
         userService.createUsersTable();
         userService.dropUsersTable();
+        userService.createUsersTable();
+        userService.dropUsersTable();
         Util.shutdown();
 
 
